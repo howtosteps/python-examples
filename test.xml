@@ -1,0 +1,40 @@
+<start>
+    <portfolios type="general"> 
+        <portfolio id="1" state="ny">
+            <name>Portfolio 1</name>
+            <firstname>John</firstname>
+            <lastname>Smith</lastname>
+            <address>123 Main St</address>
+        </portfolio>
+        <portfolio id="2" state="nj">
+            <name>Portfolio 2</name>
+            <firstname>Jenna</firstname>
+            <lastname>Smith</lastname>
+            <address>123 Main St</address>
+        </portfolio>
+        <portfolio id="3" state="tx">
+            <name>Portfolio 3</name>
+            <firstname>Romeo</firstname>
+            <lastname>Clade</lastname>
+            <address>34 Sygon St</address>
+        </portfolio>
+        <portfolio id="4" state="ny">
+            <name>Portfolio 4</name>
+            <firstname>Adam</firstname>
+            <lastname>Lipinskly</lastname>
+            <address>123 Main St</address>
+        </portfolio>
+    </portfolios>
+    <cars>
+        <model id="1">
+            <name>Toyota</name>
+            <year>2010</year>
+            <color>red</color>
+        </model>
+        <model id="2">
+            <name>Honda</name>
+            <year>2020</year>
+            <color>blue</color>
+        </model>
+    </cars>
+</start>
