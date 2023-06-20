@@ -1,5 +1,5 @@
 <start>
-    <portfolios type="general"> 
+    <portfolios id="001"> 
         <portfolio id="1" state="ny">
             <name>Portfolio 1</name>
             <firstname>John</firstname>
@@ -25,7 +25,7 @@
             <address>123 Main St</address>
         </portfolio>
     </portfolios>
-    <cars>
+    <cars id="002">
         <model id="1">
             <name>Toyota</name>
             <year>2010</year>
