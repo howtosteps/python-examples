@@ -1,0 +1,13 @@
+<start>
+    <market id="m001">
+        <name>NYSE</name>
+        <city>nyc</city>
+    </market>
+    <report id="r001"> 
+        <portfolio id="1" state="ny">
+            <firstname>John</firstname>
+            <lastname>Smith</lastname>
+            <address>123 Main St</address>
+        </portfolio>
+    </report>
+</start>

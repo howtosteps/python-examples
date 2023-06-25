@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 
-
 #filter xml file by attribute key and value. Result is written to output file that only contains elements with the specified attribute key and value along with parents and child nodes
 def filter_xmlfile(input_file, output_file, attribute_name, attribute_value):
     tree = ET.parse(input_file)
@@ -46,7 +45,7 @@ def filter_xmlfile(input_file, output_file, attribute_name, attribute_value):
 
 if __name__=='__main__':
 
-    input_file = 'simple.xml'
+    input_file = 'input.xml'
     output_file = 'output.xml'
     attribute_name = 'state'
     attribute_value = 'ny'

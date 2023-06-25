@@ -1,13 +1,25 @@
-<start><portfolio id="1" state="ny">
-            <name>Portfolio 1</name>
-            <firstname>John</firstname>
+<?xml version='1.0' encoding='utf-8'?>
+<start><market id="m001"><name>NYSE</name>
+        <city>nyc</city>
+    </market><report id="r001"><portfolio id="1" state="ny"><firstname>John</firstname>
             <lastname>Smith</lastname>
             <address>123 Main St</address>
-        </portfolio>
-        <portfolio id="4" state="ny">
-            <name>Portfolio 4</name>
-            <firstname>Adam</firstname>
+        </portfolio><portfolio id="4" state="ny"><firstname>Adam</firstname>
             <lastname>Lipinskly</lastname>
             <address>123 Main St</address>
-        </portfolio>
-    </start>
+        </portfolio></report><report id="r002"><portfolio id="7" state="ny"><firstname>Bobby</firstname>
+            <lastname>Brown</lastname>
+            <address>10 Downing Street</address>
+        </portfolio></report><cars id="m002"><model id="m1"><name>Toyota</name>
+            <color>red</color>
+        </model><model id="m2"><name>Honda</name>
+            <color>blue</color>
+        </model><model id="m1">
+            <name>Toyota</name>
+            <color>red</color>
+        </model>
+        <model id="m2">
+            <name>Honda</name>
+            <color>blue</color>
+        </model>
+    </cars></start>
