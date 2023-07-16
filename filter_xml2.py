@@ -60,11 +60,11 @@ def recreate_filtered_xml(input_file, element_name, attribute_name, attribute_va
 
 
 if __name__=='__main__':
-    input_file = 'input.xml'
+    input_file = 'input2.xml'
     output_file = 'output.xml'
-    element_name = 'portfolio'
-    attribute_name = 'state'
-    attribute_value = 'ny'
+    element_name = 'model'
+    attribute_name = 'id'
+    attribute_value = 'm1'
 
     print ("starting ...")
     recreate_filtered_xml(input_file, element_name, attribute_name, attribute_value, output_file)
