@@ -1,14 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
-<start><market id="m001"><name>NYSE</name>
+<start>
+    <market id="m001">
+        <name>NYSE</name>
         <city>nyc</city>
-    </market><report id="r001"><portfolio id="1" state="ny"><firstname>John</firstname>
-            <lastname>Smith</lastname>
-            <address>123 Main St</address>
-        </portfolio><portfolio id="1" state="ny">
-            <firstname>John</firstname>
-            <lastname>Smith</lastname>
-            <address>123 Main St</address>
-        </portfolio>
-    </report><cars id="m002"><model id="m1"><name>Toyota</name>
+    </market>
+    <report id="r001">
+        <portfolio id="1" state="ny">
+            <security refreshtype="partial" primarid="FN 1.0" />
+            <security /><security /><security /></portfolio>
+        <portfolio id="2" state="nj">
+            <security refreshtype="partial" primarid="FN 1.0" />
+            <security /><security /><security /></portfolio>
+        <portfolio id="3" state="tx">
+            <security refreshtype="partial" primarid="FN 1.0" />
+            <security /><security /><security /></portfolio>
+        <portfolio id="4" state="ny">
+            <security refreshtype="partial" primarid="FN 1.0" />
+            <security /><security /><security /></portfolio>
+    </report>
+    <report id="r002"> 
+        <portfolio id="7" state="ny">
+            <security refreshtype="partial" primarid="FN 1.0" />
+            <security /><security /><security /></portfolio>
+    </report>
+    <cars id="m002">
+        <model id="m1">
+            <name>Toyota</name>
             <color>red</color>
-        </model></cars></start>
+        </model>
+        <model id="m2">
+            <name>Honda</name>
+            <color>blue</color>
+        </model>
+    </cars>
+</start>
