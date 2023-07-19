@@ -13,11 +13,19 @@ def delete_elements(input_file, element_name, attribute_name, attribute_value, o
     for element in filtered_root.iter(element_name):
         print (f"element:{element.tag} element attrib:{element.attrib} element text:{element.text}")
         if attribute_name in element.attrib and element.attrib[attribute_name] != attribute_value:
-            print ("++Deleting")
+            print ("-deleting..")
             element.clear()
-            #filtered_root.remove(element)
+            element.set('deleted', 'yes')
         else:
             print ("--Skipping")
+
+    # now delete the elements marked for deletion
+    delete_elements = filtered_root.findall(".//*[@deleted='yes']")
+    print (f"removing elements: {len(delete_elements)}")
+    for child in delete_elements:
+        if child is not None:
+            print (f"--child:{child.tag} child attrib:{child.attrib} child text:{child.text}")
+            filtered_root.remove(child)
 
     # Save the modified XML tree to the output file
     filtered_tree = ET.ElementTree(filtered_root)

@@ -7,21 +7,21 @@
     <report id="r001">
         <portfolio id="1" state="ny">
             <security refreshtype="partial" primarid="FN 1.0" />
-            <security /><security /><security /></portfolio>
+            <security deleted="yes" /><security deleted="yes" /><security deleted="yes" /></portfolio>
         <portfolio id="2" state="nj">
             <security refreshtype="partial" primarid="FN 1.0" />
-            <security /><security /><security /></portfolio>
+            <security deleted="yes" /><security deleted="yes" /><security deleted="yes" /></portfolio>
         <portfolio id="3" state="tx">
             <security refreshtype="partial" primarid="FN 1.0" />
-            <security /><security /><security /></portfolio>
+            <security deleted="yes" /><security deleted="yes" /><security deleted="yes" /></portfolio>
         <portfolio id="4" state="ny">
             <security refreshtype="partial" primarid="FN 1.0" />
-            <security /><security /><security /></portfolio>
+            <security deleted="yes" /><security deleted="yes" /><security deleted="yes" /></portfolio>
     </report>
     <report id="r002"> 
         <portfolio id="7" state="ny">
             <security refreshtype="partial" primarid="FN 1.0" />
-            <security /><security /><security /></portfolio>
+            <security deleted="yes" /><security deleted="yes" /><security deleted="yes" /></portfolio>
     </report>
     <cars id="m002">
         <model id="m1">
