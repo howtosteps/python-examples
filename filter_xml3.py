@@ -14,11 +14,11 @@ def delete_elements(input_file, element_name, attribute_name, attribute_value, o
 
     # Find and delete the elements with the specified element name, attribute name, and value
     for element in filtered_root.iter(element_name):
+
         print (f"element:{element.tag} element attrib:{element.attrib} element text:{element.text}")
         if attribute_name in element.attrib and element.attrib[attribute_name] != attribute_value:
             print ("++Deleting")
-            #element.clear()
-            #element.set('deleted', 'yes')
+            element.set('deleted', 'yes')
             parent = parent_map[element]
             if parent is not None:
                 parent.remove(element)

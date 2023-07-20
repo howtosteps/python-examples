@@ -7,7 +7,7 @@
         <portfolio id="1" state="ny">
             <security refreshtype="partial" primarid="FN 1.0"/>
             <security refreshtype="partial" primarid="FN 2.0"/>
-            <security refreshtype="partial" primarid="FN 2.5"/>
+            <security refreshtype="partial" primarid="FN 4.0"/>
             <security refreshtype="partial" primarid="FN 3.0"/>
         </portfolio>
         <portfolio id="2" state="nj">
