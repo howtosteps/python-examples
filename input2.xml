@@ -5,8 +5,8 @@
     </market>
     <report id="r001"> 
         <portfolio id="p001" state="ny">
-            <security id="s001" refreshtype="partial" primarid="FN 1.0"/>
-            <security id="s002" refreshtype="partial" primarid="FN 2.0"/>
+            <security id="s001" refreshtype="partial" primarid="FN 1.0"></security>
+            <security id="s002" refreshtype="partial" primarid="FN 2.0"></security>
         </portfolio>
     </report>
 </start>
