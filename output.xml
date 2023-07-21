@@ -6,26 +6,20 @@
     </market>
     <report id="r001">
         <portfolio id="1" state="ny">
-            <security refreshtype="partial" primarid="FN 1.0" />
             <security refreshtype="partial" primarid="FN 3.0" />
         </portfolio>
         <portfolio id="2" state="nj">
-            <security refreshtype="partial" primarid="FN 1.0" />
             <security refreshtype="partial" primarid="FN 3.0" />
         </portfolio>
         <portfolio id="3" state="tx">
-            <security refreshtype="partial" primarid="FN 1.0" />
             <security refreshtype="partial" primarid="FN 3.0" />
         </portfolio>
         <portfolio id="4" state="ny">
-            <security refreshtype="partial" primarid="FN 1.0" />
             <security refreshtype="partial" primarid="FN 3.0" />
         </portfolio>
     </report>
     <report id="r002"> 
         <portfolio id="7" state="ny">
-            <security refreshtype="partial" primarid="FN 1.0" />
-            <security refreshtype="partial" primarid="FN 2.5" deleted="yes" />
             <security refreshtype="partial" primarid="FN 3.0" />
         </portfolio>
     </report>
