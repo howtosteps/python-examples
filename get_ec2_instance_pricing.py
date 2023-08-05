@@ -22,21 +22,21 @@ def get_ec2_pricing(instance_type, region='us-east-1'):
                 'Value': region,
             },
         ],
-        MaxResults=1,
+    #    MaxResults=1,
     )
 
     # Extract the price from the response
     print (f"response:{response}")
 
     if 'PriceList' in response and len(response['PriceList']) > 0:
-        instance_price = json.loads(response['PriceList'][0])['terms']['OnDemand']
+        instance_price = json.loads(response['PriceList'][0])['terms']['OnDemand'].values()
     else:
         instance_price = "Pricing information not available"
 
     return instance_price
 
-def get_all_ec2_instances_with_pricing():
-    ec2_client = boto3.client('ec2')
+def get_all_ec2_instances_with_pricing(region='us-east-1'):
+    ec2_client = boto3.client('ec2',region_name=region)
     response = ec2_client.describe_instances()
 
     instances_list = []
@@ -59,7 +59,9 @@ def get_all_ec2_instances_with_pricing():
 
     return instances_list
 
+
 if __name__ == "__main__":
+    print("Function 1 :Getting EC2 instances with pricing")
     ec2_instances = get_all_ec2_instances_with_pricing()
     for instance in ec2_instances:
         print(instance)
